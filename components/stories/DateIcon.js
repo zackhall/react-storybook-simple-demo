@@ -11,4 +11,13 @@ storiesOf('DateIcon', module)
   ))
   .add('with a date', () => (
     <DateIcon date="26"></DateIcon>
+  ))
+  .add('without a month or date.', () => (
+    <DateIcon></DateIcon>
+  ))
+  .add('at 2x size.', () => (
+    <DateIcon length="300"></DateIcon>
+  ))
+  .add('at 0.5x size.', () => (
+    <DateIcon length="75"></DateIcon>
   ));
